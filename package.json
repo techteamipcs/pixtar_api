@@ -1,0 +1,44 @@
+{
+  "name": "backendnew",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^8.2.0",
+    "email-validator": "^2.0.4",
+    "excel2json": "^1.0.2",
+    "express": "^4.17.1",
+    "file-system": "^2.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.7",
+    "multer": "^1.4.2",
+    "mv": "^2.1.1",
+    "node-csv": "^0.1.2",
+    "node-mv": "^0.1.3",
+    "nodemailer": "^6.7.8",
+    "nodemailer-express-handlebars": "^5.0.0",
+    "password-generator": "^2.3.2",
+    "randomstring": "^1.2.1",
+    "request": "^2.88.2",
+    "vcard-creator": "^0.5.0",
+    "vcards-js": "^2.10.0",
+    "xlsx-to-json-lc": "^0.5.0",
+    "xmlbuilder": "^15.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
